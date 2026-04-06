@@ -1,5 +1,7 @@
 # 🎬 MovieMood – Detailed Project Documentation
 
+Website Link : https://movie-recommendation-system-using-nlp-tf-idf-fastapi-eqknjxeel.streamlit.app/?view=home
+
 ## 📌 Introduction
 
 MovieMood is a **content-based movie recommendation system** built using **Natural Language Processing (NLP)** techniques. The system analyzes movie metadata such as **overview, genres, and taglines** to recommend similar movies.
@@ -34,6 +36,8 @@ User → Streamlit Frontend → FastAPI Backend → ML Model + TMDB API
 * **Data Source:** TMDB API + Movie Dataset
 
 ---
+
+<img width="1024" height="1536" alt="System Diagram" src="https://github.com/user-attachments/assets/69ac07c4-5bee-4874-90d7-ae339797242c" />
 
 ## 📂 Dataset Description
 
