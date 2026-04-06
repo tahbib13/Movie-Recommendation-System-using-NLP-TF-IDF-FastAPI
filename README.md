@@ -37,6 +37,8 @@ User → Streamlit Frontend → FastAPI Backend → ML Model + TMDB API
 
 ---
 
+➡️ System WorkFlow Design ->
+
 <img width="1024" height="1536" alt="System Diagram" src="https://github.com/user-attachments/assets/69ac07c4-5bee-4874-90d7-ae339797242c" />
 
 ## 📂 Dataset Description
