@@ -411,5 +411,3 @@ to deliver a **scalable, real-world application**.
 * Modular and scalable architecture
 
 ---
-
-**End of Documentation**
