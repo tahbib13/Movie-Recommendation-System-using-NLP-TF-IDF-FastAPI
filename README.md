@@ -1,4 +1,4 @@
-# 🎬 MovieMood – Detailed Project Documentation
+# 🎬 MovieMood – Project Documentation
 
 Website Link : https://movie-recommendation-system-using-nlp-tf-idf-fastapi-eqknjxeel.streamlit.app/?view=home
 
