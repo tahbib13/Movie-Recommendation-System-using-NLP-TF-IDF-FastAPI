@@ -171,12 +171,35 @@ tfidf_matrix = tfidf.fit_transform(df['tags'])
 
 ---
 
-### 9. Similarity Calculation
+### 9. Similarity Calculation (Cosine Similarity)
 
-Compute similarity using cosine similarity:
+To measure how similar two movies are, the system uses **Cosine Similarity**, a widely used metric in NLP.
 
-```python
+It calculates the cosine of the angle between two TF-IDF vectors:
+
+:contentReference[oaicite:0]{index=0}
+
+Where:
+- **A** and **B** are TF-IDF vectors of two movies  
+- The value ranges from **0 to 1**  
+  - **1 → Highly similar**
+  - **0 → Completely different**
+
+---
+
+### 🔍 Why Cosine Similarity?
+
+- Works well with **high-dimensional sparse data**
+- Ignores magnitude and focuses on **direction (meaning)**
+- Ideal for **text-based recommendation systems**
+
+---
+
+### ⚙️ Implementation
+
+```python code
 from sklearn.metrics.pairwise import cosine_similarity
+
 similarity = cosine_similarity(tfidf_matrix)
 ```
 
